@@ -1,0 +1,215 @@
+* {
+  -ms-box-shadow: none !important;
+  box-shadow: none !important;
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled=false) !important;
+  -webkit-text-shadow: none !important;
+  -ms-text-shadow: none !important;
+  text-shadow: none !important;
+  -webkit-font-smoothing: antialiased;
+}
+body {
+  line-height: 23px;
+  color: #666;
+  background-color: #f5f5f5;
+  font-family: "Lato";
+  font-weight: 300;
+  font-size: 16px;
+  padding-top: 36px;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+}
+/* Titles */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Raleway";
+  color: #333;
+}
+/* Paragraph & Typographic */
+p {
+  line-height: 28px;
+  margin-bottom: 25px;
+}
+.centered {
+  text-align: center;
+}
+.white {
+  color: #FFFFFF;
+}
+/* Links */
+a,
+button {
+  cursor: pointer !important;
+}
+a {
+  color: #690000;
+  word-wrap: break-word;
+  -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
+  transition: color 0.1s ease-in, background 0.1s ease-in;
+}
+a.light {
+  color: #f5f5f5;
+}
+a.light:hover,
+a.light:focus {
+  color: #690000;
+}
+a:hover,
+a:focus {
+  color: #690000;
+  text-decoration: none;
+  outline: 0;
+}
+a:before,
+a:after {
+  -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
+  transition: color 0.1s ease-in, background 0.1s ease-in;
+}
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+  padding: 0;
+}
+
+.carousel {
+  background: #690000;
+  background-image: #690000;
+}
+/* ==========================================================================
+   Wrap Sections
+   ========================================================================== */
+#headerwrap {
+  background-color: #690000;
+  padding-top: 60px;
+}
+#headerwrap h1 {
+  margin-top: 30px;
+  color: white;
+  font-size: 70px;
+}
+#headerwrap h3 {
+  color: white;
+  font-size: 30px;
+}
+#headerwrap h5 {
+  color: white;
+  font-weight: 700;
+  text-align: left;
+}
+#headerwrap p {
+  text-align: left;
+  color: white;
+}
+/* intro Wrap */
+#intro {
+  padding-top: 50px;
+  border-top: #bdc3c7 solid 5px;
+}
+#features {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+#features .ac a {
+  font-size: 20px;
+}
+/* Showcase Wrap */
+#showcase {
+  display: block;
+  background-color: #690000;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+#showcase h1 {
+  color: white;
+}
+#footerwrap {
+  background-color: #2f2f2f;
+  color: white;
+  padding-top: 40px;
+  padding-bottom: 60px;
+  text-align: left;
+}
+#footerwrap h3 {
+  font-size: 28px;
+  color: white;
+}
+#footerwrap p {
+  color: white;
+  font-size: 18px;
+}
+/* Copyright Wrap */
+#c {
+  background: #222222;
+  padding-top: 15px;
+  text-align: right;
+}
+#c p {
+  color: white;
+}
+
+
+
+
+.btn-indiscover {
+  color: white;
+  background-color: #690000;
+  border-color: #690000;
+}
+.btn-indiscover:focus,
+.btn-indiscover.focus {
+  color: white;
+  background-color: #360000;
+  border-color: #000000;
+}
+.btn-indiscover:hover {
+  color: white;
+  background-color: #360000;
+  border-color: #2c0000;
+}
+.btn-indiscover:active,
+.btn-indiscover.active,
+.open > .dropdown-toggle.btn-indiscover {
+  color: white;
+  background-color: #360000;
+  border-color: #2c0000;
+}
+.btn-indiscover:active:hover,
+.btn-indiscover.active:hover,
+.open > .dropdown-toggle.btn-indiscover:hover,
+.btn-indiscover:active:focus,
+.btn-indiscover.active:focus,
+.open > .dropdown-toggle.btn-indiscover:focus,
+.btn-indiscover:active.focus,
+.btn-indiscover.active.focus,
+.open > .dropdown-toggle.btn-indiscover.focus {
+  color: white;
+  background-color: #120000;
+  border-color: #000000;
+}
+.btn-indiscover:active,
+.btn-indiscover.active,
+.open > .dropdown-toggle.btn-indiscover {
+  background-image: none;
+}
+.btn-indiscover.disabled:hover,
+.btn-indiscover[disabled]:hover,
+fieldset[disabled] .btn-indiscover:hover,
+.btn-indiscover.disabled:focus,
+.btn-indiscover[disabled]:focus,
+fieldset[disabled] .btn-indiscover:focus,
+.btn-indiscover.disabled.focus,
+.btn-indiscover[disabled].focus,
+fieldset[disabled] .btn-indiscover.focus {
+  background-color: #690000;
+  border-color: #690000;
+}
+.btn-indiscover .badge {
+  color: #690000;
+  background-color: white;
+}
