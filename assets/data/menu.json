@@ -1,0 +1,31 @@
+[{
+  "name": "Accueil"
+}, {
+  "name": "Mobilisez-vous",
+  "sub": [{
+    "name": "Bénévoles et Associations"
+  },{
+    "name": "Entreprises et Commerçants"
+  }]
+}, {
+  "name": "Le village",
+  "sub": [{
+    "name": "Programme"
+  },{
+    "name": "Adresse et Horaires"
+  }]
+}, {
+  "name": "Parrains",
+  "sub": [{
+    "name": "Liste des parrains"
+  }]
+}, {
+  "name": "Téléthon et AFM",
+  "sub": [{
+    "name": "AFM-Téléthon"
+  },{
+    "name": "Le Téléthon"
+  }]
+}, {
+  "name": "Contact"
+}]
