@@ -21,8 +21,6 @@
     
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/js/smoothscroll.js"></script>
-    
-
   </head>
 
   <body data-spy="scroll" data-offset="0" data-target="#navigation">
@@ -40,10 +38,15 @@
       </div>
       <div class="navbar-collapse collapse">
         <ul class="nav navbar-nav">
-        <li><a href="#features" class="smothscroll">Programme</a></li>
-        <li><a href="#intro" class="smothscroll">Mobilisez-vous</a></li>
-        <li><a href="#showcase" class="smothScroll">En savoir plus</a></li>
-        <li><a href="#contact" class="smothScroll">Contact</a></li>
+          <li><a href="#features" class="smothscroll">Programme</a></li>
+          <li><a href="#intro" class="smothscroll">Mobilisez-vous</a></li>
+          <li><a href="#showcase" class="smothScroll">En savoir plus</a></li>
+          <li><a href="#contact" class="smothScroll">Contact</a></li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="https://www.facebook.com/telethonparnasse/" target="_blank">
+            <i class="fa fa-facebook-square"></i> Suivez-nous !
+          </a></li>
         </ul>
       </div><!--/.nav-collapse -->
       </div>
@@ -55,7 +58,7 @@
       <div class="container">
         <div class="row centered">
           <div class="col-lg-12">
-            <h1>Bienvenue au <b>Téléthonparnasse</b>&nbsp;!</h1>
+            <h1><small>Bienvenue au </small>Téléthonparnasse&nbsp;!</h1>
             <h3>Les 2, 3 et 4 décembre 2016, le Téléthon revient à Montparnasse.</h3>
             <br>
           </div>
@@ -66,7 +69,7 @@
             <img class="hidden-xs hidden-sm hidden-md" src="assets/img/arrow1.png">
           </div>
           <div class="col-lg-8">
-            <img class="img-responsive" src="assets/img/app-bg.jpg" alt="Téléthonparnasse">
+            <img class="img-responsive" src="assets/img/tour-night.jpg" alt="Téléthonparnasse">
 
           </div>
           <div class="col-lg-2">
@@ -87,7 +90,6 @@
           <h1 class="centered">Quel programme ?</h1>
           <br>
           <br>
-
           <div class="row">
             <br>
             <div class="col-lg-5 col-lg-offset-1 ">
@@ -107,7 +109,7 @@
           <div class="row">
             <br>
             <div class="col-lg-6 centered">
-              <img class="img-responsive img-thumbnail centered" src="assets/img/audience-868074_640.jpg" style="margin:auto;">
+              <img class="img-responsive img-thumbnail centered" src="assets/img/audience.jpg" style="margin:auto;">
             </div>
             <div class="col-lg-5 ">
               <h2>De nuit...</h2>
@@ -116,7 +118,6 @@
             </div>
           </div>
         </div>
-        <hr>
       </div><!--/ .container -->
     </div><!--/ #features -->
   
@@ -134,8 +135,8 @@
                 <h3>Associations, fédérations ou bénévoles</h3>
                 <p>
                   Voilà l’occasion parfaite de vous divertir tout en étant solidaire du Téléthon !<br>
-                  <button class="btn btn-default">En savoir plus</button>
                 </p>
+                <button class="btn btn-orange">En savoir plus</button>
               </div>
             </div>
           </div>
@@ -146,8 +147,8 @@
                 <h3>Entreprises ou commerçants</h3>
                 <p>
                   Quel que soit votre mode de participation au Téléthon, vous inscrivez votre entreprise dans une communication solidaire, porteuse de sens et de valeurs.<br>
-                  <button class="btn btn-default">En savoir plus</button>
                 </p>
+                <button class="btn btn-orange">En savoir plus</button>
               </div>
             </div>
           </div>
@@ -158,7 +159,7 @@
                 <h3>Artistes</h3>
                 <p>
                   Produisez-vous sur la scène du Téléthonparnasse !<br>
-                  <button class="btn btn-default">En savoir plus</button>
+                  <button class="btn btn-orange">En savoir plus</button>
                 </p>
               </div>
             </div>
@@ -168,13 +169,12 @@
       </div> <!--/ .container -->
     </div><!--/ #introwrap -->
     
-    <section id="showcase" name="showcase"></section>
     <div id="showcase">
       <div class="container">
         <div class="row">
           <div class="col-lg-6 col-lg-offset-3 text-center">
             <div class="section-title">
-              <h3>En savoir plus...</h3>
+              <h1>En savoir plus...</h1>
               <hr>
               <br>
             </div>
@@ -191,7 +191,7 @@
                     L’AFM-Téléthon est une association de parents et de malades qui mène un combat sans relâche contre des maladies génétiques, rares et lourdement invalidantes.
                   </p>
                   <p>
-                    <a href="#" class="btn btn-primary" role="button" data-toggle="modal" data-target="#modalAfm">En savoir plus</a>
+                    <a href="#" class="btn btn-jaune" role="button" data-toggle="modal" data-target="#modalAfm">En savoir plus</a>
                   </p>
                 </div>
               </div>
@@ -200,12 +200,12 @@
               <div class="thumbnail">
                 <img src="assets/img/telethon2.jpg" alt="Téléthon">
                 <div class="caption">
-                  <h3>Téléthon</h3>
+                  <h3>Le Téléthon</h3>
                   <p>
                     Le Téléthon, c’est l’alliance de 20 000 animations dans toute la France et d’un marathon télévisuel de 30 heures diffusé sur France Télévision.
                   </p>
                   <p>
-                    <a href="#" class="btn btn-primary" role="button" data-toggle="modal" data-target="#modalTelethon">En savoir plus</a>
+                    <a href="#" class="btn btn-jaune" role="button" data-toggle="modal" data-target="#modalTelethon">En savoir plus</a>
                   </p>
                 </div>
               </div>
@@ -223,7 +223,7 @@
         <div class="col-lg-5">
           <h3>Adresse</h3>
           <address>
-            <a href="https://goo.gl/maps/6tLr5Ag1nrm" target="_blank">
+            <a class="btn btn-link" href="https://goo.gl/maps/6tLr5Ag1nrm" target="_blank">
               <i class="fa fa-map-marker"></i>
               Place Raoul Dautry,
               Paris 15
@@ -250,27 +250,35 @@
           <div class="col-lg-6">
             <p>
               <b>Communication</b><br>
-              communication@telethonparnasse.com
+              <a class="btn btn-link" href="mailto:communication@telethonparnasse.com">communication@telethonparnasse.com</a>
             </p>
             <p>
               <b>Partenaires</b><br>
-              partenaires@telethonparnasse.com
+              <a class="btn btn-link" href="mailto:partenaires@telethonparnasse.com">partenaires@telethonparnasse.com</a>
             </p>
           </div>
           <div class="col-lg-6">
             <p>
               <b>Bénévoles</b><br>
-              benevoles@telethonparnasse.com
+              <a class="btn btn-link" href="mailto:benevoles@telethonparnasse.com">benevoles@telethonparnasse.com</a>
             </p>
             <p>
               <b>Programmation</b><br>
-              programmation@telethonparnasse.com
+              <a class="btn btn-link" href="mailto:programmation@telethonparnasse.com">programmation@telethonparnasse.com</a>
             </p>
           </div>
-
-          <h3>En savoir plus...</h3>
-          <br>
-          <p><a href="#" data-toggle="modal" data-target="#modalAfm">AFM</a> et <a href="#" data-toggle="modal" data-target="#modalTelethon">Téléthon</a></p>
+          <div class="col-lg-6">
+            <p>
+              <a class="btn btn-link" href="https://www.facebook.com/telethonparnasse/" target="_blank">
+                <i class="fa fa-facebook-square"></i> Facebook
+              </a>
+            </p>
+          </div>
+          <div class="col-lg-6">
+            <p>
+              <a class="btn btn-link" href="#" data-toggle="modal" data-target="#modalAfm"><i class="fa fa-external-link"></i> AFM</a> et <a class="btn btn-link" href="#" data-toggle="modal" data-target="#modalTelethon"><i class="fa fa-external-link"></i> Téléthon</a>
+            </p>
+          </div>
         </div>
       </div>
     </div>
@@ -302,11 +310,11 @@
                   Vous aussi vous pouvez relever le pari du Téléthon à Montparnasse, et plusieurs possibilités s’offrent à vous  :
                 </p>
                 <ul>
-                  <li>Proposer un stand de collecte sur le village TéléthonParnasse</li>
-                  <li>Créer une animation artistique (musique, concert, show, magie…) pour une représentation sur le podium du village TéléthonParnasse</li>
-                  <li>Organiser un événement festif et convivial, en dehors du village, pour collecter des dons (tournois de sports, échecs, spectacles, pièces de théâtre, cours de poterie, bingo, dîner…)</li>
-                  <li>Mettre en place un défi sportif avant, pendant ou après l'évènement</li>
-                  <li>Participer bénévolement à la gestion du village les jours J</li>
+                  <li>Proposer <strong>un stand de collecte</strong> sur le village TéléthonParnasse</li>
+                  <li>Créer <strong>une animation artistique</strong> (musique, concert, show, magie…) pour une représentation sur le podium du village TéléthonParnasse</li>
+                  <li>Organiser <strong>un événement festif et convivial</strong>, en dehors du village, pour collecter des dons (tournois de sports, échecs, spectacles, pièces de théâtre, cours de poterie, bingo, dîner…)</li>
+                  <li>Mettre en place <strong>un défi sportif</strong> avant, pendant ou après l'évènement</li>
+                  <li><strong>Participer bénévolement</strong> à la gestion du village les jours J</li>
                 </ul>
                 
                 <p>
@@ -340,15 +348,15 @@
               </div>
               <div class="col-md-8">
                 <p>
-                  Quel que soit votre mode de participation au Téléthon, vous inscrivez votre entreprise dans une communication solidaire, porteuse de sens et de valeurs. Quelques formes de soutiens possibles  :
+                  Quel que soit votre mode de participation au Téléthon, vous inscrivez votre entreprise dans <strong>une communication solidaire</strong>, <strong>porteuse de sens et de valeurs</strong>. Quelques formes de soutiens possibles  :
                 </p>
                 <ul>
-                  <li> Dons en nature de produits ou marchandises ​(ex : croissants, fruits...)</li>
-                  <li> Dons de temps de travail de vos salariés volontaires ou prestations de services (ex : réalisation et impression de 1 000 Tracts pour la manifestation, flocage sur tee-shirt...)</li>
-                  <li> Prise en charge de factures pour le village TéléthonParnasse (ex : prise en charge de la facture location et installation des tentes pour le village...)</li>
-                  <li> Organisation interne d’un événement festif et convivial pour collecter des dons ; le fruit de cette collecte pourra être remis aux organisateurs sur le podium du village TéléthonParnasse (ex :petit déjeuner, soirée festive…)</li>
-                  <li> Vente de produits dont les recettes sont versées au TéléthonParnasse. ​(ex : thés, terrines, miel, BDs, livres...)</li>
-                  <li> Dons adressés à l’AFM-Téléthon : déductibles à hauteur de 60% de l’impôt sur les sociétés ou sur les revenus.</li>
+                  <li><strong>Dons en nature de produits ou marchandises</strong> ​(ex : croissants, fruits...)</li>
+                  <li><strong>Dons de temps de travail de vos salariés volontaires ou prestations de services</strong> (ex : réalisation et impression de 1 000 Tracts pour la manifestation, flocage sur tee-shirt...)</li>
+                  <li><strong>Prise en charge de factures pour le village TéléthonParnasse</strong> (ex : prise en charge de la facture location et installation des tentes pour le village...)</li>
+                  <li><strong>Organisation interne d’un événement festif et convivial</strong> pour collecter des dons ; le fruit de cette collecte pourra être remis aux organisateurs sur le podium du village TéléthonParnasse (ex :petit déjeuner, soirée festive…)</li>
+                  <li><strong>Vente de produits</strong> dont les recettes sont versées au TéléthonParnasse. ​(ex : thés, terrines, miel, BDs, livres...)</li>
+                  <li><strong>Dons adressés à l’AFM-Téléthon</strong> : déductibles à hauteur de 60% de l’impôt sur les sociétés ou sur les revenus.</li>
                 </ul>
                 <p>
                   Vous manquez d’idées, ou voulez en savoir plus, n’hésitez pas à <a href="#contact">nous contacter</a> !
@@ -376,10 +384,10 @@
           </div>
           <div class="modal-body">
             <div class="row">
-              <div class="col-md-4">
-                <img src="assets/img/mobilisez2.jpg" alt="Mobilisez-vous !" class="img-responsive img-thumbnail">
+              <div class="col-md-10 col-md-offset-1">
+                <img src="assets/img/scene-day.jpg" alt="Mobilisez-vous !" class="img-responsive img-thumbnail">
               </div>
-              <div class="col-md-8">
+              <div class="col-md-10 col-md-offset-1">
                 <p>
                   Quel que soit votre mode de participation au Téléthon, vous inscrivez votre entreprise dans une communication solidaire, porteuse de sens et de valeurs. Quelques formes de soutiens possibles  :
                 </p>
