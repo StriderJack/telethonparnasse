@@ -36,13 +36,13 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         </button>
-        <a class="navbar-brand" href="#"><img height="20" src="assets/img/logo.png" alt="Téléthonparnasse"></a>
+        <a class="navbar-brand" href="#home"  class="smothscroll"><img height="20" src="assets/img/logo.png" alt="Téléthonparnasse"></a>
       </div>
       <div class="navbar-collapse collapse">
         <ul class="nav navbar-nav">
-        <li class="active"><a href="#home" class="smothscroll">Home</a></li>
-        <li><a href="#desc" class="smothscroll">Description</a></li>
-        <li><a href="#showcase" class="smothScroll">Showcase</a></li>
+        <li><a href="#features" class="smothscroll">Programme</a></li>
+        <li><a href="#intro" class="smothscroll">Mobilisez-vous</a></li>
+        <li><a href="#showcase" class="smothScroll">En savoir plus</a></li>
         <li><a href="#contact" class="smothScroll">Contact</a></li>
         </ul>
       </div><!--/.nav-collapse -->
@@ -80,8 +80,6 @@
     </div><!--/ #headerwrap -->
 
 
-    <section id="desc" name="desc"></section>
-    
     <!-- FEATURES WRAP -->
     <div id="features">
       <div class="container">
@@ -129,29 +127,41 @@
           <h1>Mobilisez-vous !</h1>
           <br>
           <br>
-          <div class="col-lg-4">
-            <img src="assets/img/intro01.png" alt="">
-            <h3>Associations, fédérations ou bénévoles</h3>
-            <p>
-              Voilà l’occasion parfaite de vous divertir tout en étant solidaire du Téléthon !<br>
-              <a class="btn btn-default" href="#" data-toggle="modal" data-target="#modalAsso">En savoir plus</a>
-            </p>
+          <div class="col-lg-4 pointer" data-toggle="modal" data-target="#modalAsso">
+            <div class="thumbnail">
+              <img src="assets/img/intro01.png" alt="">
+              <div class="caption">
+                <h3>Associations, fédérations ou bénévoles</h3>
+                <p>
+                  Voilà l’occasion parfaite de vous divertir tout en étant solidaire du Téléthon !<br>
+                  <button class="btn btn-default">En savoir plus</button>
+                </p>
+              </div>
+            </div>
           </div>
-          <div class="col-lg-4">
-            <img src="assets/img/intro02.png" alt="">
-            <h3>Entreprises ou commerçants</h3>
-            <p>
-              Quel que soit votre mode de participation au Téléthon, vous inscrivez votre entreprise dans une communication solidaire, porteuse de sens et de valeurs.<br>
-              <a class="btn btn-default" href="#" data-toggle="modal" data-target="#modalEntr">En savoir plus</a>
-            </p>
+          <div class="col-lg-4 pointer"  data-toggle="modal" data-target="#modalEntr">
+            <div class="thumbnail">
+              <img src="assets/img/intro02.png" alt="">
+              <div class="caption">
+                <h3>Entreprises ou commerçants</h3>
+                <p>
+                  Quel que soit votre mode de participation au Téléthon, vous inscrivez votre entreprise dans une communication solidaire, porteuse de sens et de valeurs.<br>
+                  <button class="btn btn-default">En savoir plus</button>
+                </p>
+              </div>
+            </div>
           </div>
-          <div class="col-lg-4">
-            <img src="assets/img/intro03.png" alt="">
-            <h3>Artistes</h3>
-            <p>
-              Produisez-vous sur la scène du Téléthonparnasse !<br>
-              <a class="btn btn-default" href="#" data-toggle="modal" data-target="#modalArtistes">En savoir plus</a>
-            </p>
+          <div class="col-lg-4 pointer" data-toggle="modal" data-target="#modalArtistes">
+            <div class="thumbnail">
+              <img src="assets/img/intro03.png" alt="">
+              <div class="caption">
+                <h3>Artistes</h3>
+                <p>
+                  Produisez-vous sur la scène du Téléthonparnasse !<br>
+                  <button class="btn btn-default">En savoir plus</button>
+                </p>
+              </div>
+            </div>
           </div>
         </div>
         <br>
@@ -162,32 +172,47 @@
     <div id="showcase">
       <div class="container">
         <div class="row">
-          <h1 class="centered">Some Screenshots</h1>
-          <br>
-          <div class="col-lg-8 col-lg-offset-2">
-            <div id="carousel-example-generic" class="carousel slide">
-              <!-- Indicators -->
-              <ol class="carousel-indicators">
-              <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-              <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-              </ol>
-            
-              <!-- Wrapper for slides -->
-              <div class="carousel-inner">
-              <div class="item active">
-                <img src="assets/img/item-01.png" alt="">
+          <div class="col-lg-6 col-lg-offset-3 text-center">
+            <div class="section-title">
+              <h3>En savoir plus...</h3>
+              <hr>
+              <br>
+            </div>
+          </div>
+        </div>
+        <div class="row centered">
+          <div class="row">
+            <div class="col-sm-6 col-md-5 col-md-offset-1">
+              <div class="thumbnail">
+                <img src="assets/img/telethon1.jpg" alt="AFM">
+                <div class="caption">
+                  <h3>AFM</h3>
+                  <p>
+                    L’AFM-Téléthon est une association de parents et de malades qui mène un combat sans relâche contre des maladies génétiques, rares et lourdement invalidantes.
+                  </p>
+                  <p>
+                    <a href="#" class="btn btn-primary" role="button" data-toggle="modal" data-target="#modalAfm">En savoir plus</a>
+                  </p>
+                </div>
               </div>
-              <div class="item">
-                <img src="assets/img/item-02.png" alt="">
-              </div>
+            </div>
+            <div class="col-sm-6 col-md-5">
+              <div class="thumbnail">
+                <img src="assets/img/telethon2.jpg" alt="Téléthon">
+                <div class="caption">
+                  <h3>Téléthon</h3>
+                  <p>
+                    Le Téléthon, c’est l’alliance de 20 000 animations dans toute la France et d’un marathon télévisuel de 30 heures diffusé sur France Télévision.
+                  </p>
+                  <p>
+                    <a href="#" class="btn btn-primary" role="button" data-toggle="modal" data-target="#modalTelethon">En savoir plus</a>
+                  </p>
+                </div>
               </div>
             </div>
           </div>
         </div>
-        <br>
-        <br>
-        <br>  
-      </div><!-- /container -->
+      </div>
     </div>  
 
 
@@ -197,15 +222,19 @@
         <h1 class="centered">Infos pratiques</h1>
         <div class="col-lg-5">
           <h3>Adresse</h3>
-          <p>
-            Place Raoul Dautry<br/>
-            Paris 15<br/><br/>
+          <address>
+            <a href="https://goo.gl/maps/6tLr5Ag1nrm" target="_blank">
+              <i class="fa fa-map-marker"></i>
+              Place Raoul Dautry,
+              Paris 15
+            </a>
+            <br/><br/>
             <span class="fa-stack">
               <i class="fa fa-subway fa-stack-1x"></i>
               <i class="fa fa-circle-thin fa-stack-2x"></i>
             </span>
             4, 6, 12, 13
-          </p>
+          </address>
           <h3>Horaires</h3>
           <p>
             Vendredi 02/12 : 15h-23h30<br>
@@ -238,13 +267,16 @@
               programmation@telethonparnasse.com
             </p>
           </div>
+
+          <h3>En savoir plus...</h3>
+          <br>
+          <p><a href="#" data-toggle="modal" data-target="#modalAfm">AFM</a> et <a href="#" data-toggle="modal" data-target="#modalTelethon">Téléthon</a></p>
         </div>
       </div>
     </div>
     <div id="c">
       <div class="container">
-        <p>Created by <a href="http://www.blacktie.co">BLACKTIE.CO</a></p>
-      
+
       </div>
     </div>
 
@@ -294,12 +326,53 @@
     </div>
 
 
-    <div class="modal fade" id="modalEntr" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal fade" id="modalEntr" tabindex="-1" role="dialog" aria-labelledby="myModalLabel2">
       <div class="modal-dialog modal-lg" role="document">
         <div class="modal-content">
           <div class="modal-header">
             <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-            <h4 class="modal-title" id="myModalLabel">Entreprises ou commerçants, comment devenir parrain du TéléthonParnasse ?</h4>
+            <h4 class="modal-title" id="myModalLabel2">Entreprises ou commerçants, comment devenir parrain du TéléthonParnasse ?</h4>
+          </div>
+          <div class="modal-body">
+            <div class="row">
+              <div class="col-md-4">
+                <img src="assets/img/parrains.jpg" alt="Mobilisez-vous !" class="img-responsive img-thumbnail">
+              </div>
+              <div class="col-md-8">
+                <p>
+                  Quel que soit votre mode de participation au Téléthon, vous inscrivez votre entreprise dans une communication solidaire, porteuse de sens et de valeurs. Quelques formes de soutiens possibles  :
+                </p>
+                <ul>
+                  <li> Dons en nature de produits ou marchandises ​(ex : croissants, fruits...)</li>
+                  <li> Dons de temps de travail de vos salariés volontaires ou prestations de services (ex : réalisation et impression de 1 000 Tracts pour la manifestation, flocage sur tee-shirt...)</li>
+                  <li> Prise en charge de factures pour le village TéléthonParnasse (ex : prise en charge de la facture location et installation des tentes pour le village...)</li>
+                  <li> Organisation interne d’un événement festif et convivial pour collecter des dons ; le fruit de cette collecte pourra être remis aux organisateurs sur le podium du village TéléthonParnasse (ex :petit déjeuner, soirée festive…)</li>
+                  <li> Vente de produits dont les recettes sont versées au TéléthonParnasse. ​(ex : thés, terrines, miel, BDs, livres...)</li>
+                  <li> Dons adressés à l’AFM-Téléthon : déductibles à hauteur de 60% de l’impôt sur les sociétés ou sur les revenus.</li>
+                </ul>
+                <p>
+                  Vous manquez d’idées, ou voulez en savoir plus, n’hésitez pas à <a href="#contact">nous contacter</a> !
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <div class="clear">  
+              <button type="button" class="btn btn-link" data-dismiss="modal">Fermer</button>
+              <a href="mailto:partenaires@telethonparnasse.com" class="btn btn-primary">Contactez-nous</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="modal fade" id="modalArtistes" tabindex="-1" role="dialog" aria-labelledby="myModalLabel3">
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h4 class="modal-title" id="myModalLabel3">Entreprises ou commerçants, comment devenir parrain du TéléthonParnasse ?</h4>
           </div>
           <div class="modal-body">
             <div class="row">
@@ -335,45 +408,77 @@
     </div>
 
 
-    <div class="modal fade" id="modalArtistes" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal fade" id="modalAfm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel4">
       <div class="modal-dialog modal-lg" role="document">
         <div class="modal-content">
           <div class="modal-header">
             <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-            <h4 class="modal-title" id="myModalLabel">Entreprises ou commerçants, comment devenir parrain du TéléthonParnasse ?</h4>
+            <h4 class="modal-title" id="myModalLabel4">AFM-Téléthon</h4>
           </div>
           <div class="modal-body">
             <div class="row">
               <div class="col-md-4">
-                <img src="assets/img/mobilisez2.jpg" alt="Mobilisez-vous !" class="img-responsive img-thumbnail">
+                <img src="assets/img/telethon.jpg" alt="AFM Téléthon" class="img-responsive img-thumbnail">
               </div>
               <div class="col-md-8">
+                <h5>
+                  Innover pour guérir : le combat des malades et de leurs familles
+                </h5>
+                <p>L’AFM-Téléthon est une association de parents et de malades qui mène un combat sans relâche contre des maladies génétiques, rares et lourdement invalidantes. Elle est née d’une conviction et d’une volonté : guérir des maladies longtemps considérées comme incurables.</p>
                 <p>
-                  Quel que soit votre mode de participation au Téléthon, vous inscrivez votre entreprise dans une communication solidaire, porteuse de sens et de valeurs. Quelques formes de soutiens possibles  :
+                  Trois missions : 
                 </p>
                 <ul>
-                  <li> Dons en nature de produits ou marchandises ​(ex : croissants, fruits...)</li>
-                  <li> Dons de temps de travail de vos salariés volontaires ou prestations de services (ex : réalisation et impression de 1 000 Tracts pour la manifestation, flocage sur tee-shirt...)</li>
-                  <li> Prise en charge de factures pour le village TéléthonParnasse (ex : prise en charge de la facture location et installation des tentes pour le village...)</li>
-                  <li> Organisation interne d’un événement festif et convivial pour collecter des dons ; le fruit de cette collecte pourra être remis aux organisateurs sur le podium du village TéléthonParnasse (ex :petit déjeuner, soirée festive…)</li>
-                  <li> Vente de produits dont les recettes sont versées au TéléthonParnasse. ​(ex : thés, terrines, miel, BDs, livres...)</li>
-                  <li> Dons adressés à l’AFM-Téléthon : déductibles à hauteur de 60% de l’impôt sur les sociétés ou sur les revenus.</li>
+                  <li>Guérir (recherche et développement de thérapies innovantes),</li>
+                  <li>Aider les malades (soins, accompagnement, citoyenneté),</li>
+                  <li>Communiquer les savoirs auprès des familles, professionnels et du grand public.</li>
                 </ul>
-                <p>
-                  Vous manquez d’idées, ou voulez en savoir plus, n’hésitez pas à <a href="#contact">nous contacter</a> !
-                </p>
+                <p>L’Association mène une stratégie d’intérêt général. L’innovation scientifique, médicale et sociale qu’elle impulse bénéficie à l’ensemble des maladies rares et des personnes en situation de handicap et fait avancer la médecine toute entière.</p>
+                <p>L’AFM-Téléthon, c’est aussi le Téléthon, une mobilisation populaire unique qui a fait sortir les maladies rares du néant et permis une triple révolution génétique, sociale et médicale avec le développement des biothérapies.</p>
+                <p>Pour en savoir plus, rendez-vous sur le site de l'<a href="http://www.afm-telethon.fr/" target="_blank">AFM-Téléthon.</a></p>
               </div>
             </div>
           </div>
           <div class="modal-footer">
             <div class="clear">  
               <button type="button" class="btn btn-link" data-dismiss="modal">Fermer</button>
-              <a href="mailto:partenaires@telethonparnasse.com" class="btn btn-primary">Contactez-nous</a>
             </div>
           </div>
         </div>
       </div>
     </div>
+    <div class="modal fade" id="modalTelethon" tabindex="-1" role="dialog" aria-labelledby="myModalLabel5">
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h4 class="modal-title" id="myModalLabel5">Le Téléthon</h4>
+          </div>
+          <div class="modal-body">
+            <div class="row">
+              <div class="col-md-4">
+                <img src="assets/img/telethon1.jpg" alt="Le Téléthon" class="img-responsive img-thumbnail">
+              </div>
+              <div class="col-md-8">
+                <h5>
+                  Une mobilisation solidaire et nationale exceptionnelle
+                </h5>
+                <p>Le Téléthon, c’est l’alliance de 20 000 animations dans toute la France et d’un marathon télévisuel de 30 heures diffusé sur France Télévision. C’est un élan populaire unique au monde par son ampleur qui rassemble 5 millions de personnes, 200 000 bénévoles et 70 partenaires nationaux dans plus de 10 000 communes de France et d'outre-mer.</p>
+                <p>C’est la possibilité pour chacun de faire bouger les choses, de devenir acteur de la recherche, de s’unir autour des malades et de leurs familles et de leur témoigner solidarité et soutien. Depuis sa création en 1987, il donne à l’AFM-Téléthon les moyens de poursuivre le combat contre la maladie et de s’inscrire comme acteur majeur de la recherche biomédicale pour les maladies rares en France et dans le monde.</p>
+                <p>Le compteur est à l’image de la mobilisation de tous. Chaque année, le défi du Téléthon est, après avoir remis le compteur à zéro, de le faire monter le plus haut possible en seulement 30 heures.</p>
+                <p>Pour en savoir plus, rendez-vous sur le site de l'<a href="http://www.afm-telethon.fr/" target="_blank">AFM-Téléthon.</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <div class="clear">  
+              <button type="button" class="btn btn-link" data-dismiss="modal">Fermer</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
 
     <!-- Bootstrap core JavaScript
     ================================================== -->

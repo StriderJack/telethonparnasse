@@ -11,6 +11,10 @@ body {
     -webkit-overflow-scrolling: touch;
 }
 
+.pointer {
+  cursor: pointer;
+}
+
 /* Titles */
 h1, h2, h3, h4, h5, h6 {
     font-family: "Raleway";
@@ -72,7 +76,7 @@ a:after {
    ========================================================================== */
 
 #headerwrap {
-	background-color: #34495e;
+	background-color: #00295B;
 	padding-top: 60px;
 }
 
@@ -107,8 +111,13 @@ a:after {
 }
 
 #intro {
+    background-color: #97BF0D;
 	padding-top: 50px;
 	padding-bottom: 50px;
+}
+
+#intro h1 {
+    color: white;
 }
 
 #features .ac a{
@@ -119,17 +128,17 @@ a:after {
 
 #showcase {
 	display: block;
-	background-color: #34495e;
-	padding-top: 50px;
+	//background-color: #34495e;
+	//padding-top: 50px;
 	padding-bottom: 50px;
 }
 
-#showcase h1 {
-	color: white;
+#showcase .section-title * {
+	//color: white;
 }
 
 #footerwrap {
-	background-color: #2f2f2f;
+	background-color: #00505A;
 	color: white;
 	padding-top: 40px;
 	padding-bottom: 60px;
