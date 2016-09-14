@@ -51,7 +51,7 @@ p {
 }
 
 .btn-link:hover, .btn-link:focus {
-    color: #00505A;
+    color: #EA670B;
 }
 
 a {
@@ -65,7 +65,7 @@ a {
 
 a:hover,
 a:focus {
-    color: #00505A;
+    color: #EA670B;
     text-decoration: none;
     outline: 0;
 }
@@ -94,7 +94,7 @@ a:after {
 
 /*
 #navigation {
-    background-color: #EA670B;
+    background-color: #00505A;
     border-color: transparent;
 }
 
@@ -109,7 +109,7 @@ a:after {
 */
 
 #headerwrap {
-	background-color: #EA670B;
+	background-color: #00505A;
 	padding-top: 60px;
 }
 
@@ -144,12 +144,12 @@ a:after {
 }
 
 #intro {
-    background-color: #00505A;
+    background-color: #EA670B;
 	padding-top: 50px;
 	padding-bottom: 50px;
 }
 
-#intro h1, #intro p {
+#intro h1 {
     color: white;
 }
 
@@ -180,7 +180,7 @@ a:after {
 }
 
 #footerwrap {
-	background-color: #EA670B;
+	background-color: #00505A;
 	color: white;
 	padding-top: 40px;
 	padding-bottom: 60px;
@@ -278,7 +278,7 @@ fieldset[disabled] .btn-bleufonce.focus {
 }
 .btn-bleuvertfonce {
   color: #ffffff;
-  background-color: #00505a;
+  background-color: #EA670B;
   border-color: #003941;
 }
 .btn-bleuvertfonce:focus,
@@ -326,11 +326,11 @@ fieldset[disabled] .btn-bleuvertfonce:focus,
 .btn-bleuvertfonce.disabled.focus,
 .btn-bleuvertfonce[disabled].focus,
 fieldset[disabled] .btn-bleuvertfonce.focus {
-  background-color: #00505a;
+  background-color: #EA670B;
   border-color: #003941;
 }
 .btn-bleuvertfonce .badge {
-  color: #00505a;
+  color: #EA670B;
   background-color: #ffffff;
 }
 .btn-bleuclair {
@@ -508,7 +508,7 @@ fieldset[disabled] .btn-mauve.focus {
 
 .btn-orange {
   color: #ffffff;
-  background-color: #ea670b;
+  background-color: #00505A;
   border-color: #d25c0a;
 }
 .btn-orange:focus,
@@ -556,11 +556,11 @@ fieldset[disabled] .btn-orange:focus,
 .btn-orange.disabled.focus,
 .btn-orange[disabled].focus,
 fieldset[disabled] .btn-orange.focus {
-  background-color: #ea670b;
+  background-color: #00505A;
   border-color: #d25c0a;
 }
 .btn-orange .badge {
-  color: #ea670b;
+  color: #00505A;
   background-color: #ffffff;
 }
 .btn-jaune {
