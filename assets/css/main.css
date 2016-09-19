@@ -120,8 +120,13 @@ a:after {
 }
 
 #headerwrap h3 {
-	color: white;
-	font-size: 30px;
+    color: white;
+    font-size: 30px;
+}
+
+#headerwrap h4 {
+    color: white;
+    //font-size: 30px;
 }
 
 #headerwrap h5 {
@@ -141,6 +146,10 @@ a:after {
 	padding-top: 50px;
     padding-bottom: 30px;
 	border-top: #bdc3c7 solid 5px;
+}
+
+#features .row {
+    padding-bottom: 20px;
 }
 
 #intro {
