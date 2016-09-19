@@ -188,6 +188,22 @@ a:after {
     color: white;
 }
 
+#parrains {
+    background-color: #A20054;
+}
+
+#parrains * {
+    color: white;
+}
+
+#parrains .thumbnail {
+    background-color: #f2f2f2;
+}
+
+#parrains .thumbnail h3, #parrains .thumbnail p {
+    color: #555;
+}
+
 #footerwrap {
 	background-color: #EA670B;
 	color: white;
