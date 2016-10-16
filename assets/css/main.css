@@ -47,11 +47,11 @@ p {
 /* Links */
 
 .btn-link {
-    color: #00295B;
+    color: #EA670B;
 }
 
 .btn-link:hover, .btn-link:focus {
-    color: #00505A;
+    color: #FECD12;
 }
 
 a {
@@ -92,9 +92,8 @@ a:after {
    Wrap Sections
    ========================================================================== */
 
-/*
 #navigation {
-    background-color: #EA670B;
+    background-color: #00505A;
     border-color: transparent;
 }
 
@@ -103,39 +102,42 @@ a:after {
 }
 
 #navigation .navbar-nav > .active > a {
-    color: #555;
-    background-color: #e7e7e7;
+    color: white;
+    font-weight: bolder;
+    background-color: #003741;
 }
-*/
 
 #headerwrap {
-	background-color: #EA670B;
-	padding-top: 60px;
+    padding-top: 10px;
 }
 
-#headerwrap h1, #headerwrap h1 > small {
-	margin-top: 30px;
+#headerwrap .well {
+    background-color: #EA670B;
+}
+
+#headerwrap .well h1, #headerwrap .well h1 > small {
+	margin-top: 10px;
 	color: white;
-	font-size: 70px;
+	font-size: 50px;
 }
 
-#headerwrap h3 {
+#headerwrap .well h3 {
     color: white;
     font-size: 30px;
 }
 
-#headerwrap h4 {
+#headerwrap .well h4 {
     color: white;
     //font-size: 30px;
 }
 
-#headerwrap h5 {
+#headerwrap .well h5 {
 	color: white;
 	font-weight: 700;
 	text-align: left;
 }
 
-#headerwrap p {
+#headerwrap .well p {
 	text-align: left;
 	color: white
 }
@@ -145,7 +147,7 @@ a:after {
 #features {
 	padding-top: 50px;
     padding-bottom: 30px;
-	border-top: #bdc3c7 solid 5px;
+	//border-top: #bdc3c7 solid 5px;
 }
 
 #features .row {
@@ -153,13 +155,13 @@ a:after {
 }
 
 #intro {
-    background-color: #00505A;
+    //background-color: #00505A;
 	padding-top: 50px;
 	padding-bottom: 50px;
 }
 
 #intro h1, #intro p {
-    color: white;
+    //color: white;
 }
 
 #intro .thumbnail {
@@ -189,23 +191,23 @@ a:after {
 }
 
 #parrains {
-    background-color: #A20054;
+    //background-color: #A20054;
 }
 
 #parrains * {
-    color: white;
+    //color: white;
 }
 
 #parrains .thumbnail {
-    background-color: #f2f2f2;
+    background-color: #A20054;
 }
 
 #parrains .thumbnail h3, #parrains .thumbnail p {
-    color: #555;
+    color: white;
 }
 
 #footerwrap {
-	background-color: #EA670B;
+	background-color: #00505A;
 	color: white;
 	padding-top: 40px;
 	padding-bottom: 60px;
@@ -222,8 +224,13 @@ a:after {
 }
 
 #footerwrap p {
-	color: white;
-	font-size: 18px;
+    color: white;
+    font-size: 18px;
+}
+
+#footerwrap p small {
+    color: white;
+    font-size: 13px;
 }
 
 /* Copyright Wrap */

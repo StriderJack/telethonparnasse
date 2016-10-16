@@ -91,7 +91,6 @@ a:after {
    Wrap Sections
    ========================================================================== */
 
-/*
 #navigation {
     background-color: #00505A;
     border-color: transparent;
@@ -102,20 +101,20 @@ a:after {
 }
 
 #navigation .navbar-nav > .active > a {
-    color: #555;
-    background-color: #e7e7e7;
+    color: white;
+    font-weight: bolder;
+    background-color: #003741;
 }
-*/
 
 #headerwrap {
 	background-color: #00505A;
-	padding-top: 60px;
+	padding-top: 10px;
 }
 
 #headerwrap h1, #headerwrap h1 > small {
-	margin-top: 30px;
+	margin-top: 10px;
 	color: white;
-	font-size: 70px;
+	font-size: 50px;
 }
 
 #headerwrap h3 {
@@ -142,15 +141,15 @@ a:after {
 }
 
 #commercants {
-  border-top: #bdc3c7 solid 5px;
+  //border-top: #bdc3c7 solid 5px;
 }
 
 #parrains {
-  background-color: #A20054;
+  //background-color: #A20054;
 }
 
 #parrains * {
-  color: white;
+  //color: white;
 }
 
 #benevoles {
@@ -158,11 +157,11 @@ a:after {
 }
 
 #artistes {
-  background-color: #EA670B;
+  //background-color: #EA670B;
 }
 
 #artistes * {
-  color: white;
+  //color: white;
 }
 
 /* Showcase Wrap */
@@ -205,6 +204,10 @@ a:after {
 	font-size: 18px;
 }
 
+#footerwrap p small {
+    color: white;
+    font-size: 13px;
+}
 /* Copyright Wrap */
 
 #c {
