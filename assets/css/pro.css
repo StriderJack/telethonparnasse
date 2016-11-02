@@ -92,7 +92,7 @@ a:after {
    ========================================================================== */
 
 #navigation {
-    background-color: #00505A;
+    background-color: #00295B;
     border-color: transparent;
 }
 
@@ -103,11 +103,11 @@ a:after {
 #navigation .navbar-nav > .active > a {
     color: white;
     font-weight: bolder;
-    background-color: #003741;
+    background-color: #001042;
 }
 
 #headerwrap {
-	background-color: #00505A;
+	background-color: #00295B;
 	padding-top: 10px;
 }
 
@@ -183,7 +183,7 @@ a:after {
 }
 
 #footerwrap {
-	background-color: #00505A;
+	background-color: #00295B;
 	color: white;
 	padding-top: 40px;
 	padding-bottom: 60px;
