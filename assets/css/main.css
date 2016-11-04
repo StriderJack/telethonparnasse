@@ -118,17 +118,14 @@ a:after {
 #headerwrap .well h1, #headerwrap .well h1 > small {
 	margin-top: 10px;
 	color: white;
-	font-size: 50px;
 }
 
 #headerwrap .well h3 {
     color: white;
-    font-size: 30px;
 }
 
 #headerwrap .well h4 {
     color: white;
-    //font-size: 30px;
 }
 
 #headerwrap .well h5 {

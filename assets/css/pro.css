@@ -111,15 +111,17 @@ a:after {
 	padding-top: 10px;
 }
 
+#headerwrap .jumbotron {
+  background-color: #00295B;
+}
+
 #headerwrap h1, #headerwrap h1 > small {
 	margin-top: 10px;
 	color: white;
-	font-size: 50px;
 }
 
 #headerwrap h3 {
 	color: white;
-	font-size: 30px;
 }
 
 #headerwrap h5 {
