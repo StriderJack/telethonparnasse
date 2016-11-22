@@ -6,7 +6,7 @@
     <meta name="description" content="Les 2, 3 et 4 décembre 2016, le Téléthon revient à Montparnasse !">
     <link rel="shortcut icon" href="assets/img/favicon.png">
 
-    <title>Téléthonparnasse</title>
+    <title>TéléthonParnasse</title>
 
     <!-- Bootstrap core CSS -->
     <link href="assets/css/bootstrap.min.css" rel="stylesheet">
@@ -24,7 +24,6 @@
   </head>
 
   <body data-spy="scroll" data-offset="0" data-target="#navigation">
-
     <!-- Fixed navbar -->
     <div id="navigation" class="navbar navbar-default navbar-fixed-top">
       <div class="container">
@@ -53,7 +52,7 @@
       </div>
     </div>
 
-
+    <!-- INTRO -->
     <section id="home" name="home"></section>
     <div id="headerwrap">
       <div class="container">
@@ -61,7 +60,7 @@
           <div class="col-lg-12">
             <div class="well orange">
               <img class="img-responsive center-block" src="assets/img/logo.png" alt="Téléthonparnasse">
-              <h1><small>Bienvenue au<br></small>Téléthonparnasse&nbsp;!</h1>
+              <h1><small>Bienvenue au<br></small>TéléthonParnasse&nbsp;!</h1>
               <h3>Les <b>2, 3 et 4 décembre 2016</b>, le Téléthon revient à Montparnasse.</h3>
               <h4>Pour 2016, de nombreuses animations surprises pour le plaisir de tous !</h4>
               <br>
@@ -69,10 +68,9 @@
           </div>
         </div>
       </div> <!--/ .container -->
-    </div><!--/ #headerwrap -->
+    </div>
 
-
-    <!-- FEATURES WRAP -->
+    <!-- PROGRAMME -->
     <div id="features">
       <div class="container">
         <div class="row">
@@ -83,7 +81,9 @@
             <div class="col-lg-5 col-lg-offset-1 ">
               <h2>Le Village</h2>
               <h3>Un marché de Noël</h3>
-              <p>Vente de fleurs, bières, surprises de Noël, Chocolats Cémoi, goodies téléthon, Thés Georges Canon... et bien d'autres choses encore !</p>
+              <p>
+                <a href="#" class="btn btn-lg btn-jaune" role="button" data-toggle="modal" data-target="#modalMarche">Voir les produits vendus</a>
+              </p>
               <h3>Un espace pour les familles</h3>
               <p>Venez participer à des activités ludiques en famille !</p>
               <h3>Pour se restaurer</h3>
@@ -95,7 +95,7 @@
           </div>
           <div class="row">
             <div class="col-lg-6 centered hidden-sm hidden-xs">
-              <img class="img-responsive img-thumbnail centered" src="assets/img/tour-night.jpg">
+              <img class="img-responsive img-thumbnail centered" src="assets/img/tour-night.jpg" title="crédits photo : TéléthonParnasse 2015">
             </div>
             <div class="col-lg-5 ">
               <h2>Animations</h2>
@@ -124,9 +124,9 @@
           <hr>
         </div>
       </div><!--/ .container -->
-    </div><!--/ #features -->
+    </div>
   
-    <!-- INTRO WRAP -->
+    <!-- MOBILISEZ VOUS -->
     <div id="intro">
       <div class="container">
         <div class="row centered">
@@ -143,7 +143,7 @@
         </div>
         <hr>
       </div> <!--/ .container -->
-    </div><!--/ #introwrap -->
+    </div>
     
     <div id="showcase">
       <div class="container">
@@ -161,9 +161,9 @@
             <div class="col-sm-6 col-md-5 col-md-offset-1">
               <div class="thumbnail">
                 <div class="caption">
-                  <h3><img class="img-responsive center-block" src="assets/img/afm-logo.png" alt="AFM"></h3>
+                  <h3><img class="img-responsive center-block" src="assets/img/afm-logo.png" alt="AFM" title="crédits photo : TéléthonParnasse 2015"></h3>
                   <p>
-                    L’AFM-Téléthon est une association de parents et de malades qui mène un combat sans relâche contre des maladies génétiques, rares.
+                    L’AFM-Téléthon est une association de parents et de malades qui mène un combat sans relâche contre des maladies génétiques, rares. <br><br>
                   </p>
                   <p>
                     <a href="#" class="btn btn-jaune" role="button" data-toggle="modal" data-target="#modalAfm">En savoir plus</a>
@@ -174,9 +174,9 @@
             <div class="col-sm-6 col-md-5">
               <div class="thumbnail">
                 <div class="caption">
-                  <h3><img class="img-responsive center-block" src="assets/img/telethon2.jpg" alt="Le Téléthon"></h3>
+                  <h3><img class="img-responsive center-block" src="assets/img/telethon2.jpg" alt="Le Téléthon" title="crédits photo : TéléthonParnasse 2015"></h3>
                   <p>
-                    Le Téléthon, c’est l’alliance de 20 000 animations dans toute la France et d’un marathon télévisuel de 30 heures diffusé sur France Télévision, ainsi que beaucoup d'initiatives locales dont le TéléthonParnasse.
+                    Le Téléthon, c’est l’alliance de 20 000 animations dans toute la France dont le TéléthonParnasse et d’un marathon télévisuel de 30 heures d'émission diffusées sur les chaînes de France Télévision
                   </p>
                   <p>
                     <a href="#" class="btn btn-jaune" role="button" data-toggle="modal" data-target="#modalTelethon">En savoir plus</a>
@@ -188,8 +188,7 @@
         </div>
         <hr>
       </div>
-    </div>  
-
+    </div>
 
     <div id="parrains">
       <div class="container">
@@ -203,101 +202,119 @@
           </div>
         </div>
         <div class="row centered">
-          <div class="col-sm-6">
-            <div class="thumbnail">
-              <div class="caption">
-                <h3><img class="center-block" height="120" src="assets/img/logos/BYES_logo_rvb.jpg" alt="Parrain"></h3>
-                <p>
-                  <b>Bouygues</b><br>Fournisseur de l'électricité sur le Village, sur tout le week-end.
-                </p>
-                <p>
-                  <a href="http://www.bouygues.com/" target="_blank" class="btn btn-jaune" role="button"><i class="fa fa-external-link"></i> Site internet</a>
-                </p>
+          <div class="col-md-6">
+            <div class="col-sm-12">
+              <div class="thumbnail">
+                <div class="caption">
+                  <h3><img class="center-block img-responsive" height="120" src="assets/img/logos/Logo_ParisAnim_CMJN-01.jpg" alt="Parrain"></h3>
+                  <p>
+                    <b>Centre d'animationP aris-Montparnasse</b><br>Co-organisateur de plusieurs animations
+                  </p>
+                  <p>
+                    <a href="http://www.mairie15.paris.fr/mairie15/" target="_blank" class="btn btn-jaune" role="button"><i class="fa fa-external-link"></i> Site internet</a>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-12">
+              <div class="thumbnail">
+                <div class="caption">
+                  <h3><img class="center-block img-responsive" height="120" src="assets/img/logos/BYES_logo_rvb.jpg" alt="Parrain"></h3>
+                  <p>
+                    <b>Bouygues</b><br>Fournisseur de l'électricité sur le Village, sur tout le week-end.
+                  </p>
+                  <p>
+                    <a href="http://www.bouygues.com/" target="_blank" class="btn btn-jaune" role="button"><i class="fa fa-external-link"></i> Site internet</a>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-12">
+              <div class="thumbnail">
+                <div class="caption">
+                  <h3><img class="center-block img-responsive" height="120" src="assets/img/logos/logo_mairie_15.jpg" alt="Parrain"></h3>
+                  <p>
+                    <b>Mairie du XVème arrondissement</b><br>Accueil sur le parvi et soutien logistique.
+                  </p>
+                  <p>
+                    <a href="http://www.mairie15.paris.fr/mairie15/" target="_blank" class="btn btn-jaune" role="button"><i class="fa fa-external-link"></i> Site internet</a>
+                  </p>
+                </div>
               </div>
             </div>
           </div>
-          <div class="col-sm-6">
-            <div class="thumbnail">
-              <div class="caption">
-                <h3><img class="center-block" height="120" src="assets/img/logos/logo mairie 15.jpg" alt="Parrain"></h3>
-                <p>
-                  <b>Mairie du XVème arrondissement</b><br>Accueil sur le parvi et soutien logistique.
-                </p>
-                <p>
-                  <a href="http://www.mairie15.paris.fr/mairie15/" target="_blank" class="btn btn-jaune" role="button"><i class="fa fa-external-link"></i> Site internet</a>
-                </p>
+          <div class="col-md-3">
+            <div class="col-sm-12">
+              <div class="thumbnail">
+                <div class="caption">
+                  <h3><img class="center-block img-responsive" height="42" src="assets/img/logos/logo_essence_the.png" alt="Parrain"></h3>
+                  <p>
+                    <b>Essence du Thé</b><br>Reverse au téléthonparnasse <strong>la totalité des marges</strong>.
+                  </p>
+                  <p>
+                    <a href="http://www.georgecannon.fr/contacter-le-comptoir-de-thes" target="_blank" class="btn btn-jaune" role="button"><i class="fa fa-external-link"></i> Site internet</a>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-12">
+              <div class="thumbnail">
+                <div class="caption">
+                  <h3><img class="center-block img-responsive" height="42" src="assets/img/logos/catherine_lenoir_logo.png" alt="Parrain"></h3>
+                  <p>
+                    <b>Catherine Lenoir</b><br>Reverse au téléthonparnasse <strong>50% de ses ventes</strong>.
+                  </p>
+                  <p>
+                    <a href="http://catherinelenoir.com/" target="_blank" class="btn btn-jaune" role="button"><i class="fa fa-external-link"></i> Site internet</a>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-12">
+              <div class="thumbnail">
+                <div class="caption">
+                  <h3><img class="center-block img-responsive" height="42" src="assets/img/logos/Logo Games'N Co 03.jpg" alt="Parrain"></h3>
+                  <p>
+                    <b>Association Games 'N Co</b><br><br><br>
+                  </p>
+                  <p>
+                    <a href="https://www.facebook.com/Games.N.Co91" target="_blank" class="btn btn-jaune" role="button"><i class="fa fa-external-link"></i> Site internet</a>
+                  </p>
+                </div>
               </div>
             </div>
           </div>
-          <div class="col-sm-3">
-            <div class="thumbnail">
-              <div class="caption">
-                <h3><img class="center-block" height="42" src="assets/img/logos/logo_essence_the.png" alt="Parrain"></h3>
-                <p>
-                  <b>Essence du Thé</b><br>Reverse au téléthonparnasse <strong>la totalité des marges</strong>.
-                </p>
-                <p>
-                  <a href="http://www.georgecannon.fr/contacter-le-comptoir-de-thes" target="_blank" class="btn btn-jaune" role="button"><i class="fa fa-external-link"></i> Site internet</a>
-                </p>
+          <div class="col-md-3">
+            <div class="col-sm-12">
+              <div class="thumbnail">
+                <div class="caption">
+                  <h3><img class="center-block img-responsive" height="42" src="assets/img/logos/Village-Pasteur-Vaugirard-Montparnasse.jpg" alt="Parrain"></h3>
+                  <p>
+                    <b>Village Pasteur-Vaugirard-Montparnasse</b><br><br>
+                  </p>
+                  <p>
+                    <a href="#" target="_blank" class="btn btn-jaune" role="button"><i class="fa fa-external-link"></i> Site internet</a>
+                  </p>
+                </div>
               </div>
             </div>
-          </div>
-          <div class="col-sm-3">
-            <div class="thumbnail">
-              <div class="caption">
-                <h3><img class="center-block" height="42" src="assets/img/logos/catherine_lenoir_logo.png" alt="Parrain"></h3>
-                <p>
-                  <b>Catherine Lenoir</b><br>Reverse au téléthonparnasse <strong>la totalité des marges</strong>.
-                </p>
-                <p>
-                  <a href="http://catherinelenoir.com/" target="_blank" class="btn btn-jaune" role="button"><i class="fa fa-external-link"></i> Site internet</a>
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="col-sm-3">
-            <div class="thumbnail">
-              <div class="caption">
-                <h3><img class="center-block" height="42" src="assets/img/logos/Logo Games'N Co 03.jpg" alt="Parrain"></h3>
-                <p>
-                  <b>Association Games 'N Co</b><br><br><br>
-                </p>
-                <p>
-                  <a href="https://www.facebook.com/Games.N.Co91" target="_blank" class="btn btn-jaune" role="button"><i class="fa fa-external-link"></i> Site internet</a>
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="col-sm-3">
-            <div class="thumbnail">
-              <div class="caption">
-                <h3><img class="center-block" height="42" src="assets/img/logos/Village-Pasteur-Vaugirard-Montparnasse.jpg" alt="Parrain"></h3>
-                <p>
-                  <b>Village Pasteur-Vaugirard-Montparnasse</b><br><br>
-                </p>
-                <p>
-                  <a href="#" target="_blank" class="btn btn-jaune" role="button"><i class="fa fa-external-link"></i> Site internet</a>
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="col-sm-3">
-            <div class="thumbnail">
-              <div class="caption">
-                <h3><img class="center-block" height="42" src="assets/img/logos/logo_bal_kamp.jpg" alt="Parrain"></h3>
-                <p>
-                  <b>BAL'kamp - La Caravane Balkanique</b><br>Animation "À la découverte des Balkans“<br>
-                </p>
-                <p>
-                  <a href="https://www.facebook.com/BALkamp" target="_blank" class="btn btn-jaune" role="button"><i class="fa fa-external-link"></i> Site internet</a>
-                </p>
+            <div class="col-sm-12">
+              <div class="thumbnail">
+                <div class="caption">
+                  <h3><img class="center-block img-responsive" height="42" src="assets/img/logos/logo_bal_kamp.jpg" alt="Parrain"></h3>
+                  <p>
+                    <b>BAL'kamp - La Caravane Balkanique</b><br>Animation "À la découverte des Balkans“<br>
+                  </p>
+                  <p>
+                    <a href="https://www.facebook.com/BALkamp" target="_blank" class="btn btn-jaune" role="button"><i class="fa fa-external-link"></i> Site internet</a>
+                  </p>
+                </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-    </div>  
-
+    </div>
 
     <section id="contact" name="contact"></section>
     <div id="footerwrap">
@@ -334,13 +351,13 @@
           <div class="col-lg-6">
             <p>
               <b>Général</b><br>
-              <a class="btn-link" href="mailto:contact@telethonparnasse.com">contact@telethonparnasse.com</a>
+              <a class="btn-link" href="mailto:contact@telethonparnasse.com">Contact@TelethonParnasse.com</a>
             </p>
           </div>
           <div class="col-lg-6">
             <p>
               <b>Presse</b><br>
-              <a class="btn-link" href="mailto:presse@telethonparnasse.com">presse@telethonparnasse.com</a>
+              <a class="btn-link" href="mailto:presse@telethonparnasse.com">Presse@TelethonParnasse.com</a>
             </p>
           </div>
           <h3>Liens externes</h3>
@@ -367,7 +384,6 @@
 
       </div>
     </div>
-
 
     <div class="modal fade" id="modalAfm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel4">
       <div class="modal-dialog modal-lg" role="document">
@@ -441,7 +457,6 @@
       </div>
     </div>
 
-
     <div class="modal fade" id="modalProgrammation" tabindex="-1" role="dialog" aria-labelledby="myModalLabel6">
       <div class="modal-dialog modal-lg" role="document">
         <div class="modal-content">
@@ -461,7 +476,7 @@
                           <td><a href="https://www.facebook.com/Pompoms-M%C3%A9decine-Paris-Descartes-553774961393108/">PinklaDies</a></td>
                         </tr>
                         <tr>
-                          <td>14h05</td>
+                          <td>14h30</td>
                           <td><a href="http://modeethandicap.fr/mode-et-handicap">Mode Et Handicap</a></td>
                         </tr>
                         <tr>
@@ -612,57 +627,57 @@
 
                   <a target="_blank" href="www.facebook.com/optic2000" class="list-group-item">
                     <h4 class="list-group-item-heading">Optic 2000</h4>
-                    <p class="list-group-item-text">stand photos, brochettes de bonbons, vente de goodies...</p>
+                    <p class="list-group-item-text">Stand photos, brochettes de bonbons, vente de goodies...</p>
                   </a>
 
-                  <a target="_blank" href="-" class="list-group-item">
+                  <a href="#" class="list-group-item">
                     <h4 class="list-group-item-heading">Maquillage</h4>
                     <p class="list-group-item-text">Maquillage pour les enfants</p>
                   </a>
 
-                  <a target="_blank" href="" class="list-group-item">
+                  <a href="#" class="list-group-item">
                     <h4 class="list-group-item-heading">Enigmaïeutique</h4>
-                    <p class="list-group-item-text">enquête sous forme d'énigmes et de mini-jeux pour les enfants autours des 5 sens.</p>
+                    <p class="list-group-item-text">Enquête sous forme d'énigmes et de mini-jeux pour les enfants autours des 5 sens.</p>
                   </a>
 
-                  <a target="_blank" href="" class="list-group-item">
+                  <a href="#" class="list-group-item">
                     <h4 class="list-group-item-heading">Telethonoeil</h4>
-                    <p class="list-group-item-text">parcours de sensibilisation aux pathologies visuelles recréées grâce à des lunettes spéciales</p>
+                    <p class="list-group-item-text">Parcours de sensibilisation aux pathologies visuelles recréées grâce à des lunettes spéciales</p>
                   </a>
 
-                  <a target="_blank" href="" class="list-group-item">
-                    <h4 class="list-group-item-heading">Défi étudiants orthophonistes + psychomotricité</h4>
-                    <p class="list-group-item-text"></p>
+                  <a href="#" class="list-group-item">
+                    <h4 class="list-group-item-heading">Psychophonie</h4>
+                    <p class="list-group-item-text">Défi étudiants orthophonistes et psychomotriciens : ateliers créations d'origamis et confection de masques pour enfants</p>
                   </a>
 
-                  <a target="_blank" href="" class="list-group-item">
-                    <h4 class="list-group-item-heading">Mains propres (par les élèves infirmiers)</h4>
-                    <p class="list-group-item-text">initiation et sensibilisation ludiques au lavage des mains, prise de tension et prise de pouls.</p>
+                  <a href="#" class="list-group-item">
+                    <h4 class="list-group-item-heading">Clean Hands (par les élèves infirmiers)</h4>
+                    <p class="list-group-item-text">Initiation et sensibilisation ludiques au lavage des mains, prise de tension et prise de pouls.</p>
                   </a>
 
                   <a target="_blank" href="www.modeethandicap.fr" class="list-group-item">
                     <h4 class="list-group-item-heading">Mode et Handicap</h4>
-                    <p class="list-group-item-text">défilé sur le podium et stand de sensibilisation au handicap.</p>
+                    <p class="list-group-item-text">Défilé sur le podium et stand de sensibilisation au handicap.</p>
                   </a>
 
                   <a target="_blank" href="http://www.chateau-ouvrier.fr/ludotheque/" class="list-group-item">
                     <h4 class="list-group-item-heading">Ludido, jeux géants</h4>
-                    <p class="list-group-item-text">jeux géants en bois à partager en famille</p>
+                    <p class="list-group-item-text">Jeux géants en bois à partager en famille</p>
                   </a>
 
                   <a target="_blank" href="www.lespetitsdebrouillards.org" class="list-group-item">
                     <h4 class="list-group-item-heading">P'tits Débrouillards (animation scientifique)</h4>
-                    <p class="list-group-item-text">expériences de physique et chimie amusantes à partir de matériel disponible dans la vie de tous les jours.</p>
+                    <p class="list-group-item-text">Expériences de physique et chimie amusantes à partir de matériel disponible dans la vie de tous les jours.</p>
                   </a>
 
                   <a target="_blank" href="www.regieparis14.org" class="list-group-item">
                     <h4 class="list-group-item-heading">Régie de quartier, atelier tricot</h4>
-                    <p class="list-group-item-text">confection de la plus longue écharpe en tricot au monde.</p>
+                    <p class="list-group-item-text">Confection de la plus longue écharpe en tricot au monde.</p>
                   </a>
 
-                  <a target="_blank" href="" class="list-group-item">
+                  <a href="#" class="list-group-item">
                     <h4 class="list-group-item-heading">Cyclo' Soupe</h4>
-                    <p class="list-group-item-text">cuisine et mixage de soupe grâce à des vélos-mixeurs.</p>
+                    <p class="list-group-item-text">Cuisine et mixage de soupe grâce à des vélos-mixeurs.</p>
                   </a>
 
                   <a target="_blank" href="https://www.facebook.com/BALkamp/" class="list-group-item">
@@ -675,7 +690,7 @@
                     <p class="list-group-item-text">Jeux autour de la pollution de l'air et des environnements quotidiens</p>
                   </a>
 
-                  <a target="_blank" href="" class="list-group-item">
+                  <a href="#" class="list-group-item">
                     <h4 class="list-group-item-heading">Ventes diverses</h4>
                     <p class="list-group-item-text">Essence des thès, Mères Noël, LIVA (bracelets e-santé), Confitures,Fleuriste</p>
                   </a>
@@ -684,7 +699,50 @@
                     <h4 class="list-group-item-heading">Artiste Catherine Lenoir</h4>
                     <p class="list-group-item-text">Vente d'oeuvres et de magnets</p>
                   </a>
+
+                  <a target="_blank" href="#" class="list-group-item">
+                    <h4 class="list-group-item-heading">Mon cher jardin - les jardiniers en herbe</h4>
+                    <p class="list-group-item-text">Découverte ludique de plantes et d’herbes aromatiques issues de l’agriculture biologique.</p>
+                  </a>
+
+                  <a target="_blank" href="#" class="list-group-item">
+                    <h4 class="list-group-item-heading">Sculpture récup’art</h4>
+                    <p class="list-group-item-text">Fabrication d’une sculpture géante à partir de matériaux de récupération.</p>
+                  </a>
                 </div>
+              </div>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <div class="clear">  
+              <button type="button" class="btn btn-link" data-dismiss="modal">Fermer</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="modalMarche" tabindex="-1" role="dialog" aria-labelledby="myModalLabel8">
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h4 class="modal-title" id="myModalLabel8">PRoduits du marché de Noël</h4>
+          </div>
+          <div class="modal-body">
+            <div class="row">
+              <div class="col-md-12">
+                <ul class="list-group">
+                  <li class="list-group-item">Confitures Artisanal</li>
+                  <li class="list-group-item">Miel </li>
+                  <li class="list-group-item">Peluches Fait Mains</li>
+                  <li class="list-group-item">Fleurs</li>
+                  <li class="list-group-item">Surprises De Noël</li>
+                  <li class="list-group-item">Chocolats Cémoi</li>
+                  <li class="list-group-item">Goodies Téléthon</li>
+                  <li class="list-group-item">Boissons</li>
+                  <li class="list-group-item">Thés Georges Canon</li>
+                </ul>
               </div>
             </div>
           </div>

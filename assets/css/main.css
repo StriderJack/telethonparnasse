@@ -1,6 +1,7 @@
 @font-face {
     font-family: AFMTelethonBold;
-    src: url('../fonts/AFMTelethon-Bold.otf');
+    src: url('../fonts/AFMTelethon-Bold.eot');
+    src: local('☺'), url('../fonts/AFMTelethon-Bold.woff') format('woff'), url('../fonts/AFMTelethon-Bold.ttf') format('truetype'), url('../fonts/AFMTelethon-Bold.svg') format('svg');
 }
 
 body {
