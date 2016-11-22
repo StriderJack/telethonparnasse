@@ -248,3 +248,6 @@ a:after {
     font-size: smaller;
 }
 
+.strong {
+    font-weight: bolder;
+}
